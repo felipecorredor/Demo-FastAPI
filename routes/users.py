@@ -5,8 +5,8 @@ router = APIRouter(prefix="/users", tags=["users"])
 
 
 user_list: list[User] = [
-    {"name": "Juan", "email": "juan@example.com", "role": "admin"},
-    {"name": "Felipe", "email": "felipe@example.com", "role": "user"},
+    {"username": "Juan", "email": "juan@example.com", "role": "admin"},
+    {"username": "Felipe", "email": "felipe@example.com", "role": "user"},
 ]
 
 
